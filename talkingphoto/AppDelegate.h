@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+{
+UIImageView * splashView;
+}
+@property (strong, nonatomic) UIImageView * splashView;
 @property (strong, nonatomic) UIWindow *window;
 
 @end
